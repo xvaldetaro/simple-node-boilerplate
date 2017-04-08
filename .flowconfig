@@ -1,0 +1,15 @@
+[ignore]
+
+# Ignore malformed json
+.*/node_modules/config-chain/test/broken.json
+.*/node_modules/findup/test/fixture/.*
+.*/node_modules/gulp-flowtype/test/.*
+
+# Ignore the website subdir
+<PROJECT_ROOT>/dist/.*
+
+[libs]
+<PROJECT_ROOT>/flow-typed/npm
+
+[options]
+module.name_mapper='^~\/\(.*\)$' -> '<PROJECT_ROOT>/\1'

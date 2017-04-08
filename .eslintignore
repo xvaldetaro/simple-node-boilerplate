@@ -1,0 +1,4 @@
+migrations/*
+config/*
+scripts/*
+api-tests/*
